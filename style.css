@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #baecbb;
+    padding: 45px 45px;
+}
+.all{
+    background-color: white;
+    box-shadow: 0px 0px 25px 0px rgba(0 0 0 / 40%);
+}
+a{
+    text-decoration: none;
+}
+.all header{
+    display: flex;
+    position: relative;
+    background-color: #5daf5e;
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+}
+.logo{
+    font-size: 2.3em;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 40px;
+}
+.navigation{
+    width: 50%; 
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 600;
+}
+.navigation a{
+    color: white;
+}
+.navigation a:hover{
+    color: #3b8ebf;
+}
+section{
+    padding: 40px 60px;
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.home h1{
+    color: #3b8ebf;
+    font-size: 2.3em;
+    font-weight: 900;
+}
+.home h5{
+    color: #3b8ebf;
+    font-size: 1.2em;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.home p{
+    color: #3b8ebf;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.mainbtn{
+    color: white;
+    background-color: #5daf5e;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 0.9375em;
+    display: inline-block;
+    letter-spacing: 1px;
+    border-radius: 60px;
+    margin-top: 20px;
+    margin-right: 20px;
+    transition: 0.6s ease;
+}
+.mainbtn:hover{
+    background-color: #3b8ebf;
+    transform: scale(1.1);
+}
+.photo{
+    display: flex;
+    align-items: center;
+    margin-left: 160px;
+}
+.photo img{
+    height: 300px;
+    width: 500px;
+    margin-left: 20px;
+}
+.footer{
+    background-color: #5daf5e;
+    color: white;
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+.footertitle{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.footertitle span{
+    color: white;
+}
+.socialicons a{
+    color: white;
+    font-size: 1.7em;
+    margin-right: 20px;
+    float: left;
+}
+.socialicons:hover a{
+    color: #d7e7fd;
+}
